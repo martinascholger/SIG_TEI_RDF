@@ -1,6 +1,6 @@
 # SiG Ontology aka RDF_TEI
 
-The idea is to define all relevant usecase scenarios in which someone want to transform a TEI document into RDF triples.
+The idea is to define all relevant usecase scenarios in which someone wants to transform a TEI document into RDF triples.
 Accordingly different transform scenarios seem to be relevant for me.
 Further we have to think which use scenarios are important.
 
@@ -43,3 +43,18 @@ how can this authority can be published? reused by others?
 * Publication of LOD-Data (metaphacts seems to be really cool: https://www.metaphacts.com/product)
 * Analysis of Data (InfoVis etc.)
 * Retrieval and Discovery od LOD 
+
+## Tools, technologies, data standards
+
+#### Define RDF 'inside' XML 
+
+* RDFa: http://rdfa.info/ 
+
+#### Transform XML to RDF
+
+* Xtriples: https://xtriples.lod.academy/index.html
+* RDFe – expression-based mapping of XML documents to RDF triples: https://www.parsqube.de/publikationen/rdfe-expression-based-mapping-of-xml-documents-to-rdf-triples/
+
+#### Validating RDF: 
+
+* SHACL
