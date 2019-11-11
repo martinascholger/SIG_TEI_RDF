@@ -84,8 +84,29 @@ how can this authority can be published? reused by others?
 
 
 
+TODO:
 
 
+# LOD Working Group
+
+* Ontology + LOD
+* SiG Meeting
+* Conny auch Co-Convener
+
+TEI Allgemeine Liste
+
+seinen Punkt, CIDOC, identifiziert,
+* zweiter schirtt wir etablieren und, vorstellen, mich vorstellen. 
+* bissi zeit dazwischen 
+* ich mache ein agenda mit punkten, wie.
+
+* Christian Emil, nachfragen Folien
+
+* ZIM Liste - Ontology SiG   
+
+* Alignment mit Upper Level Ontologies
+* git einladen, zim
+* paper georg (fabio), mail, zim sicht das spannenste
 
 
 
