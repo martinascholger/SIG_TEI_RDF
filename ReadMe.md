@@ -14,6 +14,8 @@ I'll have to try it out: https://github.com/ajstanley/TEI_to_RDF
 
 Comment: I'm not sure if it makes much sense to transform a tree structure into a graph structure.
 
+
+
 ## Scenario 2: Already deep-structured elements are transformed to RDF
 
 ### t:biblFull SZD-project.
@@ -58,3 +60,44 @@ how can this authority can be published? reused by others?
 #### Validating RDF: 
 
 * SHACL
+
+
+
+# Notes 11.11.2019
+
+* LOD vs. Ontology 
+* praktische Anwendung wichtig
+* CIDOC Example
+* proposal für LOD SiG: neu schreiben (Conny?, nachfragen - welche ideen hatte sie)
+  LOD in ONtology SiG, ticket 1860 (!), 1431,... offene tickets, offene tickets formulieren 
+* konkrete offene issues: über die starten (bibl/@ref)
+
+* Ziel: praktische Beispiele: wie kann ich meine TEI-Daten einbinden, RDF machen, kontrollierte Vokabularien 
+* sammeln von Beispielen
+
+* <graph> (Graphendarstellung, für was ist das gedacht, ausprobieren)
+* Vorstelluing, was macht ihr in dem Bereich? Abstimmung was wir angehen wollt?
+* Allgemeine TEI Liste Mail, SiG Ontology wird aktiv, 
+* wo müsste man aufräumen, 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
