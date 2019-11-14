@@ -8,6 +8,17 @@ This is the collaborative platform to work together around the topic TEI, RDF, O
 * From my point of view, a completely different topic is to formalize TEI as an ontology. 
 * In the Git we can try out and discuss examples, transformations, tools, technologies and so on together and perhaps we can find generic workflows/adaptations in the TEI to deal with these problems.
 
+
+### Working Mailing List
+* subscribe from this page: https://listserv.brown.edu/cgi-bin/wa?SUBED1=TEI-ONTO-SIG&A=1
+* or send an email to listserv@listserv.brown.edu with no subject line and the single line in the email body: subscribe TEI-ONTO-SIG your name
+
+### Contact
+
+* Christopher Pollin, (christopher.pollin(at)uni-graz.at)
+* Christian-Emil Smith Ore, (c.e.s.ore(at)iln.uio.no)
+
+
 ## Main UseCase-Scenarios
 
 Accordingly different use-scenarios seem to be relevant for me. But that could also be an issue, of course.
@@ -79,6 +90,19 @@ A good starting point might be the open tickets at https://github.com/TEIC/TEI/i
 * CIDOC vs. TEI
 
 # Notes 11.11.2019
+
+* 1 Welcome
+* 2 Who are we?
+* 3 Practicalities: New email list, will be organized either by Brown or ADHO
+* 4 New co-convener: Christopher Pollin, Graz
+* 5 Common workspace, wiki, github was discussed, no final decision taken.
+* 6 Presentation: C-E Ore: Texts and linked data
+* 7 What to do next and what to focus?
+
+Some keywords from the discussion:
+a) Make and publish XSL examples for transforming elements to rdf in compliance with different conceptual models
+b) Study alignment of the TEI elements for real world information and upper level ontologies
+c) Use cases of information extraction, enrichment
 
 
 
