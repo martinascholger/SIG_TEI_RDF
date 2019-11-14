@@ -1,112 +1,84 @@
-# SiG Ontology aka RDF_TEI
+# SiG Ontology, RDF, LOD
 
-The idea is to define all relevant usecase scenarios in which someone wants to transform a TEI document into RDF triples.
-Accordingly different transform scenarios seem to be relevant for me.
-Further we have to think which use scenarios are important.
+This is the collaborative platform to work together around the topic TEI, RDF, Ontologies and Linked Open Data. 
 
-From my point of view, a completely different topic is to formalize TEI as an ontology. 
-So we shoulde name the SiG "RDF_TEI".
+* The idea is to define all relevant usecase scenarios in which someone wants to transform a TEI document into RDF triples.
+* To keep it pragmatic. To see how others are modelling, referencing and working with their data. 
+* An open platform to exchange ideas on the topic and collect examples and solutions.
+* From my point of view, a completely different topic is to formalize TEI as an ontology. 
+* In the Git we can try out and discuss examples, transformations, tools, technologies and so on together and perhaps we can find generic workflows/adaptations in the TEI to deal with these problems.
 
+## Main UseCase-Scenarios
 
-## Scenario 1: The whole TEI document is transformed
+Accordingly different use-scenarios seem to be relevant for me. But that could also be an issue, of course.
+
+### Scenario 1: The whole TEI document is transformed
 
 I'll have to try it out: https://github.com/ajstanley/TEI_to_RDF
 
-Comment: I'm not sure if it makes much sense to transform a tree structure into a graph structure.
+### Scenario 2: Already deep-structured elements are transformed to RDF
 
-
-
-## Scenario 2: Already deep-structured elements are transformed to RDF
-
-### t:biblFull SZD-project.
+#### t:biblFull SZD-project.
 
 * http://glossa.uni-graz.at/o:szd.bibliothek/TEI_SOURCE
 * http://glossa.uni-graz.at/o:szd.bibliothek/RDF
 
 
-## Scenario 3: Certain semantic structures in a document are transformed to RDF
+### Scenario 3: Certain semantic structures in a document are transformed to RDF
 
-### @ana 
+#### @ana 
 
 * http://gams.uni-graz.at/context:depcha
 
+## Open tickets in relation to TEI-RDF-LOD-Ontology
+
+A good starting point might be the open tickets at https://github.com/TEIC/TEI/issues, which deal with RDF, LOD, Ontology:
+
+* Encoding RDF relationships in TEI (TEI+RDFa and alternatives): https://github.com/TEIC/TEI/issues/1860
+* clarify how to encode short-form citations #1431: https://github.com/TEIC/TEI/issues/1431
+* ...
+
 ## Controlled Vocabularies and Linking
 
-### Scenario 1: All references refer to extern taxonomies/vocabularies (Wikidata, GND, VIAF...etc.)
+### Scenario 1: References refer to extern taxonomies/vocabularies (Wikidata, GND, VIAF...etc.)
 
-### Scenario 2: The teiHeader/structure inside the teiHeader is the authority
+### Scenario 2: The teiHeader/structure inside the teiHeader is the authority / how to publish TEI-Taxonomies
 
-how can this authority can be published? reused by others?
+## Further topics of interest (this can of course be extended)
 
-
-## Further topics of interest (?)
-
-* Ontology alignment (to Upper-Level Ontologies, between Domain-specific Ontologies)
+* Ontology alignment (to Upper-Level Ontologies, between Domain-specific Ontologies) like CIDOC-CRM
 * Publication of LOD-Data (metaphacts seems to be really cool: https://www.metaphacts.com/product)
 * Analysis of Data (InfoVis etc.)
 * Retrieval and Discovery od LOD 
 
 ## Tools, technologies, data standards
 
-#### Define RDF 'inside' XML 
+### Define RDF 'inside' XML 
 
 * RDFa: http://rdfa.info/ 
+* ...
 
-#### Transform XML to RDF
+### Transform XML to RDF
 
 * Xtriples: https://xtriples.lod.academy/index.html
 * RDFe – expression-based mapping of XML documents to RDF triples: https://www.parsqube.de/publikationen/rdfe-expression-based-mapping-of-xml-documents-to-rdf-triples/
+* XSLT 
+* ...
 
 #### Validating RDF: 
 
 * SHACL
+* ...
 
+## Other Topics
 
+* <graph>
+* bibl/@ref
+* CIDOC vs. TEI
 
 # Notes 11.11.2019
 
-* LOD vs. Ontology 
-* praktische Anwendung wichtig
-* CIDOC Example
-* proposal für LOD SiG: neu schreiben (Conny?, nachfragen - welche ideen hatte sie)
-  LOD in ONtology SiG, ticket 1860 (!), 1431,... offene tickets, offene tickets formulieren 
-* konkrete offene issues: über die starten (bibl/@ref)
 
-* Ziel: praktische Beispiele: wie kann ich meine TEI-Daten einbinden, RDF machen, kontrollierte Vokabularien 
-* sammeln von Beispielen
-
-* <graph> (Graphendarstellung, für was ist das gedacht, ausprobieren)
-* Vorstelluing, was macht ihr in dem Bereich? Abstimmung was wir angehen wollt?
-* Allgemeine TEI Liste Mail, SiG Ontology wird aktiv, 
-* wo müsste man aufräumen, 
-  
-
-
-
-
-TODO:
-
-
-# LOD Working Group
-
-* Ontology + LOD
-* SiG Meeting
-* Conny auch Co-Convener
-
-TEI Allgemeine Liste
-
-seinen Punkt, CIDOC, identifiziert,
-* zweiter schirtt wir etablieren und, vorstellen, mich vorstellen. 
-* bissi zeit dazwischen 
-* ich mache ein agenda mit punkten, wie.
-
-* Christian Emil, nachfragen Folien
-
-* ZIM Liste - Ontology SiG   
-
-* Alignment mit Upper Level Ontologies
-* git einladen, zim
-* paper georg (fabio), mail, zim sicht das spannenste
 
 
 
