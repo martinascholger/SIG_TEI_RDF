@@ -38,6 +38,8 @@ A good starting point might be the open tickets at https://github.com/TEIC/TEI/i
 * clarify how to encode short-form citations #1431: https://github.com/TEIC/TEI/issues/1431
 * ...
 
+### Scenario 4: ...
+
 ## Controlled Vocabularies and Linking
 
 ### Scenario 1: References refer to extern taxonomies/vocabularies (Wikidata, GND, VIAF...etc.)
